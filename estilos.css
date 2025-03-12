@@ -1,0 +1,113 @@
+body {
+  background: #f6f4f0;
+  font-family: Montserrat, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  display: flex;
+  height: 70px;
+  background-color: #2e5077;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.nombre img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.nombre {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+nav a:hover {
+  color: #d0ddd0;
+}
+
+.ice_gallery {
+  color: #2e5077;
+}
+
+.imgfondo {
+  background-image: linear-gradient(100deg, #000, #00000020),
+    url("imagenes/cubos.jpeg");
+  height: 45rem;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.content_banner {
+  max-width: 90rem;
+  margin: 110px 0;
+  padding: 10rem 0;
+  margin-left: 40px;
+  font-size: 200%;
+  color: white;
+  position: absolute;
+  top: 0px;
+}
+
+.content_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.border_bottom {
+  margin: 100px 150px;
+}
+
+.seccion {
+  margin-bottom: 50px;
+  text-align: center;
+  color: #2e5077;
+  font-size: 40px;
+}
+
+.tx {
+  font-size: 30px;
+}
+
+hr {
+  border: 1.5px solid #2e5077;
+  width: 80%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem;
+  align-items: center;
+  margin-top: 125px;
+}
+
+.icons {
+  font-size: 2rem;
+  margin: 0 0.4rem;
+}
+
+.links {
+  color: #2e5077;
+}
+
+a.active {
+  text-decoration: underline;
+}
