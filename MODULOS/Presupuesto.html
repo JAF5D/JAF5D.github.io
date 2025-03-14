@@ -35,17 +35,17 @@
 
       <div class="form_inputs">
         <label class="form_label">
-          <input type="text" placeholder=" " class="form_input" />
+          <input type="text" placeholder=" " pattern="[A-Za-z][ ]{2-20}" title="Usa solo letras." class="form_input" />
           <span class="form_text">Ingresa tu Nombre</span>
         </label>
 
         <label class="form_label">
-          <input type="email" placeholder=" " class="form_input" required />
+          <input type="email" placeholder=" " pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="No olvides usar el @ y el .com" class="form_input" required />
           <span class="form_text">Ingresa tu Correo electronico</span>
         </label>
 
         <label class="form_label">
-          <input type="tel" placeholder=" " class="form_input" required />
+          <input type="tel" placeholder=" " pattern="[\d]{6,10}" title="Tu numero de telefono nos puede superar los 10 digitos o tener menos de 6." class="form_input" required />
           <span class="form_text">Ingresa tu numero de telefono</span>
         </label>
 
